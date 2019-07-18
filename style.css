@@ -1,0 +1,94 @@
+body {
+    color: white;
+    background-color: #CFC293;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0px;
+}
+
+.container {
+    justify-content: center;
+    width: 800px;
+    height: auto 0;
+    margin-left: calc(50% - 400px);
+    background-color: #33421C;
+    z-index: 0;
+}
+
+.nav {
+    width: 100%;
+    line-height: 60px;
+}
+
+nav a {
+    width: 20%;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,.current {
+    background-color: #CFC293;
+    color: black;
+}
+
+
+
+.button {
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.ref {
+    margin-top: 100px;
+}
+
+.top {
+    align-content: center;
+    margin: 0 calc(50% - 260px);
+    padding: 10px;
+    width: 500px;
+    border-radius: 50px;
+    background-color: #324726;
+}
+
+.top:hover {
+    border-radius: 0;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bio {
+    display: inline-block;
+    padding: 20px 20px 20px 40px;
+    width: 720px;
+    text-align: justify;
+}
+
+.bio a {
+    color: #CFC293;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: none;
+}
+
+/* // CONTACT FORM // */
+
+.textarea {
+    width: 680px;
+    height: 200px;
+}
